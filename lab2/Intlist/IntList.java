@@ -88,7 +88,7 @@ public class IntList {
     	while(preA.rest!=null) {
     		preA = preA.rest;
     	}
-    	preA.next = B;
+    	preA.rest = B;
         return A;
     }
 
