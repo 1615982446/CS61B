@@ -109,7 +109,7 @@ public class IntList {
     		ptrA = ptrA.rest;
     	}
     	ptrRes.rest = B;
-        return res.rest;;
+        return res.rest;
     }
 
 
